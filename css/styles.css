@@ -60,8 +60,16 @@ p{
     text-align: center;
     color : white;   
 }
+.coloumn {
+    float: left;
+    padding: 50px;
+}
+.row ::after {
+    display: inline-block;
+    
+}
 .what-we-do {
-    vertical-align: middle;
-    display: inline-flex;
+    text-align: center;
+    margin: 50px;
 
 }
