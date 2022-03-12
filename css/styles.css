@@ -1,7 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*{ padding: 0;
+   margin: 0;
 }
 body { 
     font-family: "Poppins" , sans-serif;
@@ -31,5 +29,18 @@ nav ul li a{
     color: white;
     font-size: 17px;
     text-transform: uppercase;
+
+}
+#landing-page {
+    background-image: url(../images/landing-page.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+.container {
+
+margin-top: 80px;
+margin-bottom: 80px;
 
 }
