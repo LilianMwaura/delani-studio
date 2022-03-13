@@ -1,4 +1,4 @@
-# desani-studio
+# delani-studio
 #### Lilian Wambui
 #### 
 ## Description
