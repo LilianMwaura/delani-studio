@@ -66,16 +66,22 @@ $(document).ready(function(){
     }).mouseout(function(){
       $("#overlay5").hide();
     });
+   }); 
+  $(document).ready(function(){
     $("#portfolio6").mouseover(function(){
       $("#overlay6").show();
     }).mouseout(function(){
       $("#overlay6").hide();
     });
+  });
+  $(document).ready(function(){
     $("#portfolio7").mouseover(function(){
       $("#overlay7").show();
     }).mouseout(function(){
       $("#overlay7").hide();
     });
+  });
+  $(document).ready(function(){
     $("#portfolio8").mouseover(function(){
       $("#overlay8").show();
     }).mouseout(function(){
