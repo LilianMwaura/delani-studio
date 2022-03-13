@@ -55,6 +55,7 @@ p{
     background-image: url(../images/services.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     margin-top: 60px;
     margin-bottom: 60px;
     height: 40vh;
@@ -98,18 +99,18 @@ padding-bottom: 38px;
     text-align: center;
     padding-top:40px;
   }
-  .contact{
-    background-image: url('../images/backgrounds/c_image.jpg');
-    background-position: center center;
+  #contact{
+    background-image: url(../images/contact.jpg);
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 50vh;
     color: white;
-    /* text-align: center; */
   }
   .title{
     padding: 6px;
   }
-  .contact h2{
+  #contact h2{
     text-align: center;
     margin-top: 30px;
     padding-top: 40px;
@@ -140,4 +141,11 @@ padding-bottom: 38px;
     margin-left: 20%;
     padding-bottom: 30px;
     margin-bottom: 20px;
+  }
+  footer{
+    text-align: center;
+    padding-top: 30px;
+  }
+  footer p{
+    margin-top: 10px;
   }
