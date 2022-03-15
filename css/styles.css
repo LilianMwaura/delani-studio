@@ -70,67 +70,57 @@ p{
     color : white; 
     padding : 10px;  
 }
-.coloumn {
-    float: left;
-    padding: 20px;
-}
-.row ::after {
-    content: "";
-    clear: both;
-    display: table;
-    
-}
-.what-we-do {
+.container h2 {
     text-align: center;
-    padding: 20px;
-    margin: 10px;
+    padding-bottom: 3vw;
+    margin-top : 3vw;
 }
-.what-we-do .headings {
-padding-bottom: 38px;
+.cards {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 18vw;
 }
-#product, #development, #design{
-  display: none;
-  font-size: 16px;
-}
-#product .title, #development .title, #design .title{
-  font-size: 20px;
-  font-weight: 600;
-}
-.col-md-4 {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-.row ::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.col-md-3 {
-  float: left;
-  width: 25%;
-  padding:5px;
-}
-.row::after{
-  content: "";
-  clear: both;
-  display: table;
-}
-.col-md-3 img{
-    max-width: 100%;
-    max-height: 100%;
+.card{
+  width: 28%;
     position: relative;
+}
+.card img{
+  padding-left: 11vw;
+}
+.cards p{
+   text-align: center;
+   padding-bottom: 1vw;
+}
+.cards h4{
+   text-align: center;
+   padding-bottom: 1vw;
+}
+.hidden,.hidden1,.hidden2{
+   display: none;
+   position: absolute;
+   width: 100%;
+   height: auto;
+}
+.visible,.visible1,.visible2{
+   position: absolute;
+   width: 100%;
+   height: auto;
+}
+.card .visible2 img{
+   padding-top: 1vw;
 }
 .portfolio h2{
     text-align: center;
     padding-top:40px;
   }
-  #portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-left:18%;
-  margin-right: 16%;
+  #portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left:18%;
+    margin-right: 16%;
   }
   #contact{
     background-image: url(../images/contact.jpg);
@@ -193,7 +183,8 @@ padding-bottom: 38px;
       height: 100%;
       top: 20px;
       left: 16px;
-      padding-top: 10%;
+      padding-top: 20%;
+    
     }
     .col-md-3 img{
       width:100%px;
@@ -281,4 +272,5 @@ padding-bottom: 38px;
       margin-left:6%;
       margin-right: 10%; 
     }
+  }
   }
