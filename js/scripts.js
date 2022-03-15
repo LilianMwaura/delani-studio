@@ -1,44 +1,34 @@
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
-$(document).ready(function(){
-    $("#development-image").click(function(){
-      $("#development-image").slideDown('1500').hide('1000');
-      $("#development").show('1500');
-    });
-    $("#development").click(function(){
-      $("#development").slideUp('1500');
-      $("#development-image").slideDown('1500');
-    });
-  });
-  
-  $(document).ready(function(){
-    $("#design-image").click(function(){
-      $("#design-image").slideDown('1500').hide('1000');
-      $("#design").show('1500');
-    });
-    $("#design").click(function(){
-      $("#design").slideUp('1500');
-      $("#design-image").slideDown('1500');
-    });
-  });
-  
-  $(document).ready(function(){
-    $("#product-image").click(function(){
-      $("#product-image").slideDown('1500').hide('1000');
-      $("#product").show('1500');
-    });
-    $("#product").click(function(){
-      $("#product").slideUp('1500');
-      $("#product-image").slideDown('1500');
-    });
-  });
 
+$(".visible ").click(function(){
+    $(".visible").hide()
+    $(".hidden ").toggle()
+    $(".hidden").show()
+    $()
+});
+ $(".hidden").click(function(){
+    $(".hidden").hide()
+    $(".visible").toggle()
+})
+$(".visible1  ").click(function(){
+    $(".visible1").hide()
+    $(".hidden1").toggle()
+    $(".hidden1").show()
+    $()
+});
+ $(".hidden1").click(function(){
+    $(".hidden1").hide()
+    $(".visible1").toggle()
+})
+$(".visible2 ").click(function(){
+    $(".visible2").hide()
+    $(".hidden2 ").toggle()
+    $(".hidden2").show()
+    $()
+});
+ $(".hidden2").click(function(){
+    $(".hidden2").hide()
+    $(".visible2").toggle()
+})
   $(document).ready(function(){
     $("#portfolio1").mouseover(function(){
       $("#overlay").show();
