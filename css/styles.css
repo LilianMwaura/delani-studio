@@ -112,30 +112,71 @@ p{
    padding-top: 1vw;
 }
 .portfolio h2{
-    text-align: center;
-    padding-top:40px;
-  }
-  #portfolio{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left:18%;
-    margin-right: 16%;
-  }
-  #contact{
-    background-image: url(../images/contact.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    height: 65vh;
-    color: white;
-  }
-  .title{
-    padding: 6px;
-  }
-  #contact h2{
+  text-align: center;
+  padding-bottom: 2vw;
+  padding-top: 3vw;
+}
+.images img{
+  padding: 5px;
+  width: 100%;
+}
+.work{
+  padding-left: 9vw;
+  display: flex;
+  width: 100%;
+}
+.works{
+  padding-left: 9vw;
+  display: flex;
+  width: 100%;
+}
+.images{
+position: relative;
+width: 23%;
+}
+.tag{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+  z-index: 2;
+  top: 10%;
+  left: 10%;
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  margin-right: -2vw;
+}
+.blank{
+  color: white;
+  font-weight: bolder;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size:2vw;
+  text-align: center;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1.5vw;
+  margin-top: 1.5vw;
+}
+.portfolio{
+  padding-bottom: 3vw;
+}
+#contact{
+  background-image: url(../images/contact.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 65vh;
+  color: white;
+}
+ #contact h2{
     text-align: center;
     margin-top: 30px;
     padding-top: 40px;
@@ -145,6 +186,7 @@ p{
     background: transparent;
     color: white;
     font-size: 20px;
+    border: 1px solid white line;
   }
   
   .form-control::-webkit-input-placeholder { 
@@ -169,6 +211,8 @@ p{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: blue;
+    font-weight: 100;
   }
   footer{
     text-align: center;
